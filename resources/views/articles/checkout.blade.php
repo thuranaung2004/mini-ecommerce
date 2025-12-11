@@ -3,7 +3,7 @@
 @section("content")
 <div class="container my-5 text-dark">
 
-    <h1 class="mb-4 text-center">Checkout</h1>
+    <h1 class="mb-5 text-center" style="font-size:40px">Checkout</h1>
     @if($errors->any())
     <div class="alert alert-warning">
         @foreach ($errors->all() as $error)
