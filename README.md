@@ -55,25 +55,31 @@ Relationships:
    git clone https://github.com/thuranaung2004/mini-ecommerce.git
 
 2. Install dependencies:
+   ```bash
    composer install
    npm install
    npm run dev
 
 3. Create .env file:
+   ```bash
    cp .env.example .env
 
-4. Generate application key:   
+4. Generate application key: 
+   ```bash
    php artisan key:generate
 
 5. Configure database in .env
 
 6. Run migrations:
+   ```bash
    php artisan migrate
 
-7. Create storage link:   
+7. Create storage link: 
+   ```bash
    php artisan storage:link
 
 8. Run the application:
+   ```bash
    php artisan serve
 
 Notes
