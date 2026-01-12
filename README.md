@@ -4,7 +4,7 @@ A mini e-commerce web application built using **Laravel** that allows users to b
 
 ---
 
-## 🚀 Features
+##  Features
 
 ### User Features
 - User authentication (login & register)
@@ -23,7 +23,7 @@ A mini e-commerce web application built using **Laravel** that allows users to b
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Backend:** PHP (Laravel)
 - **Frontend:** Blade, Bootstrap
@@ -33,7 +33,7 @@ A mini e-commerce web application built using **Laravel** that allows users to b
 
 ---
 
-## 🗂️ Database Design
+##  Database Design
 
 - users
 - products
@@ -48,32 +48,32 @@ Relationships:
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/thuranaung2004/mini-ecommerce.git
 
-2. Install dependencies
+2. Install dependencies:
    composer install
    npm install
    npm run dev
 
-3. Create .env file
+3. Create .env file:
    cp .env.example .env
 
 4. Generate application key:   
-   php artisan migrate
+   php artisan key:generate
 
 5. Configure database in .env
 
-6. Run migrations
+6. Run migrations:
    php artisan migrate
 
-7. Create storage link   
+7. Create storage link:   
    php artisan storage:link
 
-8. Run the application
+8. Run the application:
    php artisan serve
 
 Notes
